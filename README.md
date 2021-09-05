@@ -35,7 +35,12 @@ To create a shopping cart REST API(Use Python/Mongodb) that handles CRUD operati
 - Empty cart
 
 ## Instructions to get this working
-- make a virtual environment and install all the python packages
+- make a virtual environment and install all the python packages using the following commands
+    - pip install virtualenv
+    - virtualenv env
+    - for LINUX/MAC os : source myvenv/bin/activate
+    - for WINDOWS : env\Scripts\activate.bat
+    - pip install -r requirement.txt
 - install mongoDB and make a local database with the name "cart_database"
 - Activate the virtual enviroment and write the following commands
     - python3 manage.py migrate
