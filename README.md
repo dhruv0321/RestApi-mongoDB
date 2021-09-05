@@ -32,7 +32,6 @@ To create a shopping cart REST API(Use Python/Mongodb) that handles CRUD operati
 - Update price for item in cart
 - Update quantity for  item in cart
 - Remove specific item from cart
-- Empty cart
 
 ## Instructions to get this working
 - make a virtual environment and install all the python packages using the following commands
@@ -48,3 +47,4 @@ To create a shopping cart REST API(Use Python/Mongodb) that handles CRUD operati
 - After the server is running use postman/insomnia to sent requests
 - send GET, POST request to localhost:port/cart/ to get details of the cart and add item to the cart
 - send PUT, DELETE, PATCH request to localhost:port/cart/<id> to update/partially update/delete the item in the cart 
+- the request should be in the form of "Form URL encoded"
